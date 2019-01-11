@@ -1,0 +1,52 @@
+.class final Lo/Fx$if$ˋ;
+.super Ljava/lang/Object;
+.source ""
+
+# interfaces
+.implements Lo/ʝ$ˋ;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lo/Fx$if;->ˋ(Landroid/view/View;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x18
+    name = null
+.end annotation
+
+
+# static fields
+.field public static final ˏ:Lo/Fx$if$ˋ;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    new-instance v0, Lo/Fx$if$ˋ;
+
+    invoke-direct {v0}, Lo/Fx$if$ˋ;-><init>()V
+
+    sput-object v0, Lo/Fx$if$ˋ;->ˏ:Lo/Fx$if$ˋ;
+
+    return-void
+.end method
+
+.method constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final B_()V
+    .locals 0
+
+    .line 18
+    return-void
+.end method

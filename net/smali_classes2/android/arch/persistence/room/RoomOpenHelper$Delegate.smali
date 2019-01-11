@@ -1,0 +1,50 @@
+.class public abstract Landroid/arch/persistence/room/RoomOpenHelper$Delegate;
+.super Ljava/lang/Object;
+.source ""
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Landroid/arch/persistence/room/RoomOpenHelper;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x409
+    name = "Delegate"
+.end annotation
+
+
+# instance fields
+.field public final version:I
+
+
+# direct methods
+.method public constructor <init>(I)V
+    .locals 0
+
+    .line 141
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 142
+    iput p1, p0, Landroid/arch/persistence/room/RoomOpenHelper$Delegate;->version:I
+
+    .line 143
+    return-void
+.end method
+
+
+# virtual methods
+.method protected abstract createAllTables(Landroid/arch/persistence/db/SupportSQLiteDatabase;)V
+.end method
+
+.method protected abstract dropAllTables(Landroid/arch/persistence/db/SupportSQLiteDatabase;)V
+.end method
+
+.method protected abstract onCreate(Landroid/arch/persistence/db/SupportSQLiteDatabase;)V
+.end method
+
+.method protected abstract onOpen(Landroid/arch/persistence/db/SupportSQLiteDatabase;)V
+.end method
+
+.method protected abstract validateMigration(Landroid/arch/persistence/db/SupportSQLiteDatabase;)V
+.end method
